@@ -1,6 +1,6 @@
 # Portfolio
 
-Freelance developer portfolio for Santhosh Pandiyan, built with Next.js.
+Freelance developer portfolio for ASHWINRAM, built with Next.js.
 
 ## Structure
 

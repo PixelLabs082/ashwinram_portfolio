@@ -47,10 +47,10 @@ function Header() {
           <a
             href="#home"
             onClick={closeMenu}
-            className="pointer-events-auto relative z-4 grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white text-[1.05rem] font-semibold tracking-tight text-black sm:h-10 sm:w-10"
+            className="pointer-events-auto relative z-4 grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white text-[0.85rem] font-bold tracking-tighter text-black sm:h-10 sm:w-10 sm:text-[0.95rem]"
             aria-label="Home"
           >
-            S
+            AR
           </a>
           <nav className={`pointer-events-auto hidden items-center gap-5 lg:flex ${menuOpen ? 'lg:hidden' : ''}`} aria-label="Primary">
             {site.nav.map((link, index) => (

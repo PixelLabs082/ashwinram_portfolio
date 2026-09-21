@@ -15,12 +15,12 @@ export default function Icon() {
           justifyContent: 'center',
           background: '#000000',
           color: '#ffffff',
-          fontSize: 20,
-          fontWeight: 600,
+          fontSize: 16,
+          fontWeight: 700,
           letterSpacing: -1,
         }}
       >
-        S
+        AR
       </div>
     ),
     size,

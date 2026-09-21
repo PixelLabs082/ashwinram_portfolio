@@ -23,7 +23,7 @@ export default function OpenGraphImage() {
         </p>
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <p style={{ fontSize: 96, lineHeight: 0.9, fontWeight: 500, letterSpacing: -3, margin: 0 }}>
-            Santhosh
+            ASHWINRAM
           </p>
           <p style={{ fontSize: 32, lineHeight: 1.4, opacity: 0.7, marginTop: 28, maxWidth: 720 }}>
             Web apps and websites for founders and small teams.

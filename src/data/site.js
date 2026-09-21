@@ -1,11 +1,11 @@
 export const site = {
-  name: 'Santhosh Pandiyan',
-  brand: 'Santhosh',
+  name: 'ASHWINRAM',
+  brand: 'ASHWINRAM',
   role: 'Software Developer',
-  email: 'santhoshkannan525@gmail.com',
-  phone: '+91 99431 47838',
-  phoneHref: 'tel:+919943147838',
-  whatsapp: 'https://wa.me/919943147838',
+  email: 'ashwinram2810@gmail.com',
+  phone: '+91 93448 09016',
+  phoneHref: 'tel:+919344809016',
+  whatsapp: 'https://wa.me/919344809016',
   location: 'Working remotely',
   timezone: 'IST',
   nav: [
@@ -15,12 +15,12 @@ export const site = {
     { name: 'Contact', href: '#contact' },
   ],
   socials: [
-    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/santhosh-pandiyan-k-42b771290/' },
-    { name: 'Instagram', href: 'https://www.instagram.com/santhoshkannan06' },
-    { name: 'WhatsApp', href: 'https://wa.me/919943147838' },
-    { name: 'Phone', href: 'tel:+919943147838' },
-    { name: 'Email', href: 'mailto:santhoshkannan525@gmail.com' },
-    { name: 'GitHub', href: 'https://github.com/SANDY655' },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/ashwinram-m-425314291/' },
+    { name: 'Instagram', href: 'https://www.instagram.com/_ashwin005_' },
+    { name: 'WhatsApp', href: 'https://wa.me/919344809016' },
+    { name: 'Phone', href: 'tel:+919344809016' },
+    { name: 'Email', href: 'mailto:ashwinram2810@gmail.com' },
+    { name: 'GitHub', href: 'https://github.com/Ashwinram005' },
   ],
   hero: {
     eyebrow: 'Available for Work',
@@ -250,7 +250,7 @@ export const site = {
   about: {
     heading: 'About Me',
     lead: 'One person to brief. A written plan. Work you can review before the deadline.',
-    body: 'I’m Santhosh Pandiyan, a Software Developer working remotely. I specialize in building live web applications, responsive client websites, custom applications and Software Solutions. With hands-on experience in cross-functional engineering teams in the UK and active client projects, I deliver clear scopes, rapid previews, and on-time launches.',
+    body: 'I’m ASHWINRAM, a Software Developer working remotely. I specialize in building live web applications, responsive client websites, custom applications and Software Solutions. With hands-on experience in cross-functional engineering teams in the UK and active client projects, I deliver clear scopes, rapid previews, and on-time launches.',
     points: [
       {
         title: 'We start with the outcome',
@@ -268,13 +268,13 @@ export const site = {
   },
   experience: [
     {
-      title: 'Software Developer',
+      title: 'Software Engineer Intern',
       company: 'Cafy Careers',
       location: 'Salford, England (Remote)',
-      period: 'Dec 2025 - Present',
+      period: 'Oct 2025 - Present',
     },
     {
-      title: 'Frontend Developer Intern',
+      title: 'Software Developer Intern',
       company: 'StarLabs Technologies',
       location: 'Dhanbad, Jharkhand (Remote)',
       period: 'Jun 2025 - Aug 2025',
