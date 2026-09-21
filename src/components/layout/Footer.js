@@ -13,7 +13,7 @@ function Footer() {
           </p>
         </div>
         <div>
-          <p className="mb-4 text-[0.72rem] uppercase tracking-[0.16em] text-fg">Sitemap</p>
+          <p className="mb-4 text-[0.72rem] uppercase tracking-[0.16em] text-fg">Navigation</p>
           {site.nav.map((link) => (
             <a key={link.href} href={link.href} className="mb-2 block text-muted transition-colors hover:text-fg">
               {link.name}
@@ -34,7 +34,9 @@ function Footer() {
           </div>
         </div>
         <div className="md:text-right">
-          <p className="mb-3 text-muted">© {site.name.split(' ')[0]}'s personal portfolio</p>
+          <p className="mb-3 whitespace-nowrap text-[13px] text-muted sm:text-[14px]">
+            © {site.name}'s Personal Portfolio
+          </p>
           <a href="#home" className="text-muted transition-colors hover:text-fg">
             Back to Home
           </a>
