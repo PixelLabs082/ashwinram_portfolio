@@ -61,7 +61,7 @@ function Hero() {
               <div className="relative aspect-[4/4] w-full overflow-hidden rounded-2xl">
                 <img
                   src="/images/robot-hero.jpg"
-                  alt="Santhosh Pandiyan - Software Developer"
+                  alt="ASHWINRAM - Software Developer"
                   className="h-full w-full object-cover object-center transform-gpu"
                 />
                 <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between rounded-xl border border-white/10 bg-black/70 px-4 py-2.5 backdrop-blur-md">
@@ -69,7 +69,7 @@ function Hero() {
                     <span className="pulse-dot h-2.5 w-2.5 rounded-full bg-green" />
                     <span className="text-[12px] font-mono uppercase tracking-wider text-fg">{site.role}</span>
                   </div>
-                  <span className="text-[11px] font-mono text-muted">{site.timezone}</span>
+                  {/* <span className="text-[11px] font-mono text-muted">{site.timezone}</span> */}
                 </div>
               </div>
             </div>

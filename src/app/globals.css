@@ -110,11 +110,17 @@ h4,
 
 .hero-mark {
   max-width: 100%;
-  font-size: clamp(2.5rem, 19cqi, 8rem);
-  line-height: 0.84;
+  font-size: clamp(2rem, 9.5vw, 3.8rem);
+  line-height: 0.9;
   letter-spacing: -0.04em;
   word-spacing: normal;
   white-space: nowrap;
+}
+
+@media (min-width: 1024px) {
+  .hero-mark {
+    font-size: clamp(3.2rem, 5.2vw, 5.2rem);
+  }
 }
 
 .hero-copy {

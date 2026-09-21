@@ -129,7 +129,7 @@ function Contact() {
           email: form.email.trim(),
           phone: fullPhone,
           message: form.details.trim(),
-          _cc: 'ashwinram28102005@gmail.com,pixellabs082@gmail.com',
+          _cc: 'ashwinram2810@gmail.com,pixellabs082@gmail.com',
           _subject: `New Freelance Project Inquiry from ${form.name.trim()}`,
           _template: 'table',
           _captcha: 'false',
