@@ -25,6 +25,7 @@ const inter = Inter({
 });
 
 export const metadata = {
+  metadataBase: new URL('https://ashwinram-portfolio.vercel.app'),
   title: `${site.name} | ${site.role}`,
   description: 'Software Developer specializing in web applications, websites, solutions, and applications for founders and engineering teams.',
   icons: {
