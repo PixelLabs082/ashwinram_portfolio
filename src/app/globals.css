@@ -416,7 +416,10 @@ html[data-cursor='on'] .site-cursor {
   font-weight: 700;
   line-height: 0.85;
   letter-spacing: -0.04em;
-  color: rgb(255 255 255 / 0.12);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.10) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   pointer-events: none;
   white-space: nowrap;
 }
@@ -434,7 +437,10 @@ html[data-cursor='on'] .site-cursor {
 }
 
 [data-theme='light'] .menu-watermark {
-  color: rgb(17 17 17 / 0.06);
+  background: linear-gradient(180deg, rgba(17, 17, 17, 0.22) 0%, rgba(17, 17, 17, 0.10) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .menu-nav:hover .menu-link {
