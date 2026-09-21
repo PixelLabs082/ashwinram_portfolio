@@ -16,7 +16,12 @@ export default function SmoothScroll() {
       anchors: true,
     });
 
-    return () => lenis.destroy();
+    window.lenis = lenis;
+
+    return () => {
+      delete window.lenis;
+      lenis.destroy();
+    };
   }, []);
 
   return null;
