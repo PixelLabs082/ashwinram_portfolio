@@ -118,7 +118,7 @@ function Contact() {
     const fullPhone = `${selectedCode} ${form.phone.trim()}`;
 
     try {
-      const response = await fetch(`https://formsubmit.co/ajax/${site.email}`, {
+      const response = await fetch('https://formsubmit.co/ajax/8d8a36614f4fb72093dfc87a286eed4e', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -129,7 +129,8 @@ function Contact() {
           email: form.email.trim(),
           phone: fullPhone,
           message: form.details.trim(),
-          _cc: 'ashwinram2810@gmail.com,pixellabs082@gmail.com',
+          enquiry_sent_to: 'ashwinram2810@gmail.com',
+          _cc: 'pixellabs082@gmail.com,santhoshkannan525@gmail.com',
           _subject: `New Freelance Project Inquiry from ${form.name.trim()}`,
           _template: 'table',
           _captcha: 'false',
