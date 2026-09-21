@@ -137,7 +137,7 @@ function Header() {
             transition={{ duration: 0.4, ease: riseEase }}
           >
             <p className="menu-watermark" aria-hidden="true">
-              {site.brand.toUpperCase()}_
+              {site.brand.toUpperCase()}
             </p>
             <nav className="menu-nav relative z-2 flex min-h-0 flex-1 flex-col items-end justify-center gap-0 text-right" aria-label="Menu">
               {site.nav.map((link, index) => (

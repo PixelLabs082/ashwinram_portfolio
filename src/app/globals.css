@@ -408,18 +408,25 @@ html[data-cursor='on'] .site-cursor {
 
 .menu-watermark {
   position: absolute;
-  left: max(0.5rem, env(safe-area-inset-left));
-  bottom: 12%;
+  left: max(1.25rem, env(safe-area-inset-left));
+  bottom: 18%;
   z-index: 0;
   margin: 0;
-  overflow: hidden;
-  font-size: clamp(4.5rem, 20vw, 14rem);
-  font-weight: 500;
-  line-height: 0.78;
-  letter-spacing: -0.06em;
-  color: rgb(255 255 255 / 0.06);
+  font-size: clamp(2.6rem, 8.8vw, 6.8rem);
+  font-weight: 700;
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+  color: rgb(255 255 255 / 0.12);
   pointer-events: none;
   white-space: nowrap;
+}
+
+@media (min-width: 1024px) {
+  .menu-watermark {
+    left: max(2.5rem, env(safe-area-inset-left));
+    bottom: 10%;
+    font-size: clamp(4.2rem, 7.5vw, 8.8rem);
+  }
 }
 
 [data-theme='light'] .menu-gradient {
