@@ -32,9 +32,28 @@ function Header() {
   }, []);
 
   useEffect(() => {
-    document.body.style.overflow = menuOpen ? 'hidden' : '';
-    return () => {
+    if (menuOpen) {
+      if (typeof window !== 'undefined' && typeof window.lenis?.stop === 'function') {
+        window.lenis.stop();
+      }
+      document.body.style.overflow = 'hidden';
+      document.body.style.touchAction = 'none';
+      document.documentElement.style.overflow = 'hidden';
+    } else {
+      if (typeof window !== 'undefined' && typeof window.lenis?.start === 'function') {
+        window.lenis.start();
+      }
       document.body.style.overflow = '';
+      document.body.style.touchAction = '';
+      document.documentElement.style.overflow = '';
+    }
+    return () => {
+      if (typeof window !== 'undefined' && typeof window.lenis?.start === 'function') {
+        window.lenis.start();
+      }
+      document.body.style.overflow = '';
+      document.body.style.touchAction = '';
+      document.documentElement.style.overflow = '';
     };
   }, [menuOpen]);
 
